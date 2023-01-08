@@ -4,8 +4,7 @@ import 'dart:convert';
 Future<String> getResponseFromChatGPT(String prompt) async {
   var headers = {
     'Content-Type': 'application/json',
-    'Authorization':
-        'Bearer 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',
+    'Authorization': 'Bearer YOUR_API_KEY_HERE',
   };
 
   var data =
