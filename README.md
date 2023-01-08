@@ -1,16 +1,24 @@
-# chatgpt_flutter
+## ChatGPT + Flutter Mobilevision
+This is a Flutter app that uses the FlutterMobileVision package to read text from the camera, and the OpenAI ChatGPT API to get a response for the text.
 
-A new Flutter project.
+## Prerequisites
+To use this app, you will need:
 
-## Getting Started
+A device with a camera and a Flutter environment set up (see here for instructions on how to set up Flutter).
+An API key for the OpenAI ChatGPT API. You can sign up for an API key here.
+Installation
+To install this app, follow these steps:
 
-This project is a starting point for a Flutter application.
+Clone this repository to your local machine.
+Add your OpenAI ChatGPT API key to the api_key field under the flutter_mobile_vision_2 dependency.
+Run flutter pub get to install the dependencies.
+## Usage
+To use this app, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Start the app and wait for it to initialize.
+Press the "Read text from Camera" button. This will open the camera and start reading text.
+Point the camera at a piece of text that you want to send to ChatGPT.
+Tap the screen to take a picture of the text.
+Wait for the app to send the text to ChatGPT and receive a response.
+The response from ChatGPT will be displayed on the screen.
+You can repeat this process as many times as you like to get responses from ChatGPT for different pieces of text.
